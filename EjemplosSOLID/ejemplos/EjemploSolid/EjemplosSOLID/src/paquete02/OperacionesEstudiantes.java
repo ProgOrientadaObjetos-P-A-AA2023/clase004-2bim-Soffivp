@@ -72,7 +72,8 @@ public class OperacionesEstudiantes {
     public void listaCiudades() {
         for (int i = 0; i < estudiantes.size(); i++) {
             listaCiudadesEstudiantes = String.format("%sCiudad%d:%s, ",
-                    listaCiudadesEstudiantes, i + 1, estudiantes.get(i).obtenerCiudad().nombre);
+                    listaCiudadesEstudiantes, i + 1,
+                    estudiantes.get(i).obtenerCiudad().nombre);
         }
     }
 
